@@ -1,6 +1,6 @@
 #!/bin/bash
 #----------------------------------------------
-# All in one installer script by #LASE
+# All in one installer script by #LASE v2
 
 # Vars
 MACHINE_OS=$(uname -o)
