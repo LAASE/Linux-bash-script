@@ -1,12 +1,20 @@
 <img src="https://i.imgur.com/Z3KGhLv.png"></img>
 <br>
 
-# Main features
+## :clipboard: Main features
+*as
+-sad
+**asas
+*as*asda
 
-# :moneybag: Donate
-as
+## :cd: Install
 
-# :bust_in_silhouette: Credits
-as
+## :wrench: Requirements
+You only need to download and the script will do all the job
 
-## :blue_book: Documentation
+## :moneybag: Donate
+If you would like to donate, you can via [PayPal](https://www.paypal.me/#)
+
+## :bust_in_silhouette: Credits
+-
+
