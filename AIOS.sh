@@ -1,8 +1,6 @@
 #!/bin/bash
 #----------------------------------------------
 # All in one installer script by #LASE
-# Version:1.0
-#----------------------------------------------
 
 # Vars
 MACHINE_OS=$(uname -o)
@@ -12,6 +10,7 @@ MYIP=$(dig +short myip.opendns.com @resolver1.opendns.com)
 MYIP2=$(hostname -i)
 
 VERSION="1.0"
+AUTHOR="#LASE"
 
 # Message Color
 function greenMSG() {
@@ -57,11 +56,18 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 sleep 1
-greenMSG "##############################################################"
-greenMSG "           All In One installer script by #LASE"
-greenMSG "                     Version:$VERSION"
-greenMSG "##############################################################"
-
+greenMSG "	######## ##	##	 ## ##	    ##	  ######## ##	   ##	#######	"
+greenMSG "	######## ##	##	 ## ###	    ##	  ######## ###	   ##	#######	"
+greenMSG "	##    ## ##	##	 ## ####    ##	  ##	## ####	   ##	##	"
+greenMSG "	##    ## ##	##	 ## ## ##   ##	  ##	## ## ##   ##	##	"	 
+greenMSG "	######## ##	##	 ## ##  ##  ##	  ##	## ##  ##  ##	#######	"
+greenMSG "	##    ## ##	##	 ## ##   ## ##	  ##	## ##   ## ##	##  	"
+greenMSG "	##    ## ##     ##	 ## ##    ####	  ##	## ##    ####	##	"
+greenMSG "	##    ## ###### #####    ## ##     ###	  ######## ##     ###	#######	"
+greenMSG "	##    ## ######	#####    ## ##      ##    ######## ##      ##   #######	"
+greenMSG "        ======================================================================= "
+greenMSG "                          Version:$VERSION | Author:$AUTHOR"
+greenMSG ""
 ############################################ [Selection menu]
 redMSG "Pick your choise"
 OPTIONS=("VPS Configuration" "VPS Info" "Program Install" "Program Configuration" "Exit")
