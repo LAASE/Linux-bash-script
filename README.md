@@ -2,12 +2,28 @@
 <br>
 
 ## :clipboard: Main features
-*as
--sad
-**asas
-*as*asda
+* VPS Configuration
+  * Configure a machine like upgrade machine,change root pass,change ssh pasword,etc.
+* VPS Info
+  * See all information about the machine
+* Program Install
+  * Install custom programs like LAMP,etc.
+* Program Configuration
+  * Configure custom program like LAMP,etc.
+
+## :city_sunrise: Screenshots
+<h6 align="center">Main Menu</h6>
+<h6 align="center"><img src="https://i.imgur.com/aDWGePk.png"></img></h6>
 
 ## :cd: Install
+>Download the script
+``` bash
+git clone https://github.com/LAASE/Linux-bash-script.git
+```
+>Start the script
+``` bash
+./AIOS.sh
+```
 
 ## :wrench: Requirements
 You only need to download and the script will do all the job
