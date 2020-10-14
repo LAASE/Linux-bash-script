@@ -20,6 +20,10 @@
 ``` bash
 git clone https://github.com/LAASE/Linux-bash-script.git
 ```
+or
+``` bash
+wget https://raw.githubusercontent.com/LAASE/Linux-bash-script/main/AIOS.sh
+```
 >Start the script
 ``` bash
 ./AIOS.sh
